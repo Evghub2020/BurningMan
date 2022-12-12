@@ -114,7 +114,14 @@ header a{
     border: 1px solid #fff;
     width: 238px;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
 .description{
     display: flex;
     justify-content: space-between;
@@ -135,6 +142,15 @@ header a{
     display: flex;
     justify-content: space-between;
 }
+
+.photo {
+    transition: 0.7s; /* Время эффекта */
+}
+.photo:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+
 
 .footer-text{
     font-size: 15px;
